@@ -2,7 +2,7 @@
 /**
  * Plugin Name: W8ing
  * Plugin URI: https://github.com/bgcom/bgp-wp-w8ing
- * Description: A basic waiting/landing page Wordpress plugin
+ * Description: A basic waiting/landing page plugin for Wordpress
  * Version: 1.0
  * Author: Guillaume Molter for B+G & Partners SA
  * Author URI: http://bgcom.ch
