@@ -9,9 +9,7 @@ function w8ing_admin_add_page() {
 
 /************* Custom style for our admin page *************/
 function admin_register_head() {
-    $siteurl = get_option('siteurl');
-    $url = $siteurl . '/wp-content/plugins/' . basename(dirname(__FILE__)) . '/w8ing_style.css';
-    echo "<link rel='stylesheet' type='text/css' href='$url' />\n";
+    echo '<link rel="stylesheet" type="text/css" href="'.get_option('siteurl').'/wp-content/plugins/' . basename(dirname(__FILE__)) . '/w8ing_style.css'.'" />';
 }
 
 add_action('admin_head', 'admin_register_head');
