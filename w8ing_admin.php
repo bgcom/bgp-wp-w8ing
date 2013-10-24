@@ -4,7 +4,7 @@
 add_action('admin_menu', 'w8ing_admin_add_page');
 
 function w8ing_admin_add_page() {
-	add_options_page('W8ting', 'W8ting', 'manage_options', 'w8ing', 'w8ing_options_page');
+	add_options_page('W8ing', 'W8ing', 'manage_options', 'w8ing', 'w8ing_options_page');
 }
 
 /************* Custom style for our admin page *************/
@@ -19,7 +19,7 @@ function w8ing_options_page() {
 	?>
 	<div class="wrap">
 	<div id="icon-options-general" class="icon32"><br></div>
-	<h2><?php echo __("W8ting","w8ing"); ?></h2>
+	<h2><?php echo __("W8ing","w8ing"); ?></h2>
 	<form action="options.php" method="post">
 	<?php settings_fields('w8ing_options'); ?>
 	<?php do_settings_sections('w8ing'); ?>

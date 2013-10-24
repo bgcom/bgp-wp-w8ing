@@ -16,7 +16,7 @@ When you develop a website or modify you sometimes want to hide the content from
 ###How to use
 1. [Install & activate](http://codex.wordpress.org/Managing_Plugins) the plugin 
 2. [Create a Wordpress Page](http://codex.wordpress.org/Pages#Creating_Pages) that will be used as your landing page.
-3. In the Wordpress administration go to Settings > W8ting
+3. In the Wordpress administration go to Settings > W8ing
 4. Follow instructions on this page
 
 That's it!
