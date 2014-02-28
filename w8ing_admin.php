@@ -8,11 +8,13 @@ function w8ing_admin_add_page() {
 }
 
 /************* Custom style for our admin page *************/
-function admin_register_head() {
-    echo '<link rel="stylesheet" type="text/css" href="'.get_option('siteurl').'/wp-content/plugins/' . basename(dirname(__FILE__)) . '/w8ing_style.css'.'" />';
+function w8ing_admin_style() {
+	wp_register_script('w8ing_admin_style', plugins_url('w8ing_style.css', __FILE__));
+	wp_enqueue_script('w8ing_admin_style');
 }
 
-add_action('admin_head', 'admin_register_head');
+add_action( 'admin_enqueue_scripts', 'w8ing_admin_style' );  
+
 
 /************* Creating the admin page wrapper *************/
 function w8ing_options_page() { 
